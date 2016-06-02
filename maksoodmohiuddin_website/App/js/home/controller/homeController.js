@@ -32,7 +32,11 @@
 
         $scope.home = function () {
             $state.go('home');
-        };        
+        };
+
+        $scope.aydin = function () {
+            $state.go('aydin');
+        };
 
         init();
     }]);
