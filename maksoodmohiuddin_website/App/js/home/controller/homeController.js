@@ -11,11 +11,11 @@
         };
 
         $scope.experience = function () {
-            $window.open('http://maksoodmohiuddin.com/experience', '_self');
+            $state.go('experience');            
         };
 
         $scope.education = function () {
-            $window.open('http://maksoodmohiuddin.com/education', '_self');
+            $state.go('education');
         };
 
         $scope.github = function () {
@@ -23,15 +23,15 @@
         };
 
         $scope.travel = function () {
-            $window.open('http://maksoodmohiuddin.com/travel', '_self');
+            $state.go('travel');
         };
 
         $scope.resume = function () {
-            $window.open('http://maksoodmohiuddin.com/resume', '_self');
+            $state.go('resume');
         };
 
         $scope.home = function () {
-            $window.open('http://maksoodmohiuddin.com/home', '_self');
+            $state.go('home');
         };        
 
         init();
