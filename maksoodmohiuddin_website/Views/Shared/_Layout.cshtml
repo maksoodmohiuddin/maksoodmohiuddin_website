@@ -1,24 +1,66 @@
 ﻿<!DOCTYPE html>
-<html lang="en" ng-app="maksoodMohiuddin">
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="consultancy, agency, strategy, apps, design, development, mobile, web, business apps, iOS, iPhone, Android">
-    <title> Maksood Mohiuddin | Technology and Travel </title>
-    @Styles.Render("~/thirdpartycss")
-    @Styles.Render("~/appcss")    
-    <base href="/">
-</head>
-<body>   
+<html ng-app="maksoodMohiuddin" ng-strict-di class="HtmlBackground">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name='keywords' content='maksood mohiuddin' />
+        <title> Maksood Mohiuddin </title>        
+        <link rel="shortcut icon" href="/favicon.ico" type="image/vnd.microsoft.icon" />
+        @*<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>*@
 
-    <div class="container body-content">
-        <div ui-view="main" ng-cloak></div>
-        @RenderBody()
-    </div>
+        @Styles.Render("~/thirdpartycss")
+        @Styles.Render("~/appcss")
+        @Scripts.Render("~/thirdpartyjs")
+        @Scripts.Render("~/appjs")
 
-    @Scripts.Render("~/thirdpartyjs")
-    @Scripts.Render("~/appjs")
-    
-</body>
+        <base href="/home">
+    </head>
+
+    <body>
+        <div id="main">          
+            @* Each page is designed to be self-contained deep linked and have its own header *@
+            <div id="main_content">
+                @* Angular ui-view directive tells $state where to place templates, "main" is one name assigned to all views e.g. see refer.js -->
+                 <!-- ng-cloak prevents display of raw html*@
+                <div ui-view="main" ng-cloak></div>
+                @RenderBody()             
+            </div>    
+                     
+            <footer>
+                <section class="footer">
+                    <div>    
+                        <nav>
+                            <h1 class="frontload">Site Map</h1>
+                            <ul>
+                                <li>
+                                    <a ng-href="/home">Home</a>
+                                </li>
+                                <li>
+                                    <a ng-href="/experience">Experience</a>
+                                </li>
+                                <li>
+                                    <a ng-href="/education">Education</a>
+                                </li>
+                                <li>
+                                    <a ng-href="/travel">Travel</a>
+                                </li>
+                                <li>
+                                    <a ng-href="/aydin">Aydin</a>
+                                </li>
+                            </ul>
+                        </nav>                        
+                    </div>
+                    <div>
+                        <p>
+                            &copy;2016 - Maksood Mohiuddin.
+                            All trademarks, trade names, or logos mentioned or used are the property of their respective owners.
+                            Everything else (including but not limited to algorithm, text, graphics, artwork, audio, video, and other media formats) available on this site are property of Maksood Mohiuddin.
+                        </p>
+                    </div>
+                </section>
+            </footer>      
+
+        </div>
+   </body>
 </html>
 

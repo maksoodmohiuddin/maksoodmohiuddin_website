@@ -107,7 +107,8 @@ footer > section > div {
 .cards { 
 	height: 38.5rem;
 	margin-top: 04.8rem;
-	padding-left: 06rem;
+	padding-left: 05.5rem;
+    padding-right: 05.5rem;
 	display: block;
 }
 
@@ -159,7 +160,8 @@ footer > section > div {
 .cards-medium { 
 	height: 20.9rem;
 	margin-top: 03.6rem;
-	padding-left: 04.5rem;
+	padding-left: 08.5rem;
+    padding-right: 08.5rem;
 	display: block;    
 }
 
@@ -200,7 +202,8 @@ footer > section > div {
 .cards-small { 
 	height: 28.9rem;
 	margin-top: 03.6rem;
-	padding-left: 04.5rem;
+	padding-left: 08.5rem;
+    padding-right: 08.5rem;
 	display: block;
 }
 
@@ -241,7 +244,8 @@ footer > section > div {
 .cards-large { 
 	height: 80.5rem;
 	margin-top: 04.8rem;
-	padding-left: 06rem;
+	padding-left: 0rem;
+    padding-right: 0rem;
 	display: block;
 }
 
@@ -260,6 +264,17 @@ footer > section > div {
 
 
 .cards-large > li:before { 
+	content: '';
+	display: block;
+	width: 100%;
+	height: 05px;
+	position: absolute;
+	top: 00;
+	left: 00;
+	background: #0aa6e1;
+}
+
+.cards-large > li:after { 
 	content: '';
 	display: block;
 	width: 100%;
@@ -411,7 +426,7 @@ footer > section > div {
 }
 
 #experience p {
-    font-size: 02.4rem;
+    font-size: 01.8rem;
     text-align: right;
     color: #fff;
 }
@@ -444,7 +459,7 @@ footer > section > div {
 }
 
 #education p {
-    font-size: 02.4rem;
+    font-size: 1.8rem;
     text-align: right;
     color: #0d480a;
 }
@@ -478,7 +493,7 @@ footer > section > div {
 
 
 #resume p { 
-	font-size: 02.4rem;
+	font-size: 1.8rem;
     text-align: right
 }
 
