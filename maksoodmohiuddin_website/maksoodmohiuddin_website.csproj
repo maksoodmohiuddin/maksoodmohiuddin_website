@@ -222,8 +222,22 @@
   <ItemGroup>
     <Content Include="App\css\global.css" />
     <Content Include="App\css\reset.css" />
+    <Content Include="App\images\aydin\0Month.jpg" />
+    <Content Include="App\images\aydin\10Month.jpg" />
+    <Content Include="App\images\aydin\11Month.jpg" />
+    <Content Include="App\images\aydin\1Month.jpg" />
+    <Content Include="App\images\aydin\2Month.JPG" />
+    <Content Include="App\images\aydin\3Month.JPG" />
+    <Content Include="App\images\aydin\4Month.JPG" />
+    <Content Include="App\images\aydin\5Month.JPG" />
+    <Content Include="App\images\aydin\6Month.jpg" />
+    <Content Include="App\images\aydin\7Month.JPG" />
+    <Content Include="App\images\aydin\8Month.JPG" />
+    <Content Include="App\images\aydin\9Month.jpg" />
     <Content Include="App\images\aydin\aydin.jpg" />
     <Content Include="App\images\aydin\aydin_bully.jpg" />
+    <Content Include="App\images\aydin\Born.JPG" />
+    <Content Include="App\images\aydin\UltraSound.JPG" />
     <Content Include="App\images\brands\20thcenturyfox.jpeg" />
     <Content Include="App\images\brands\capitaloneinvesting.png" />
     <Content Include="App\images\brands\facebook.png" />
