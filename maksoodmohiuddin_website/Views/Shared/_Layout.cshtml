@@ -37,7 +37,7 @@
             <div id="main_content">
                 @* Angular ui-view directive tells $state where to place templates, "main" is one name assigned to all views e.g. see refer.js -->
                  <!-- ng-cloak prevents display of raw html*@
-                <div ui-view="main" ng-cloak></div>
+                <div ui-view="main" ng-cloak autoscroll="true"></div>
                 @RenderBody()             
             </div>    
                      
@@ -68,7 +68,7 @@
                             </ul>
                             <ul ng-show="isMobile">
                                 <li>
-                                    <button class="navigation" ng-click="home()">Home</button>
+                                    <button class="navigation" ng-click="experience()">Home</button>
                                 </li>
                                 <li>
                                     <button class="navigation" ng-click="experience()">Experience</button>
