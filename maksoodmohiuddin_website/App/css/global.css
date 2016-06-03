@@ -44,6 +44,10 @@ button.regressive_alt { background: transparent; border: 02px solid rgb(1,139,18
 button.destructive { background: #d03027; }
 button.destructive_alt { background: transparent; border: 02px solid rgb(1,139,187); color: rgb(1,139,187); }
 
+button.navigation { background: #000; width: 100%;}
+button.link { background: #000; width: 5rem; margin-bottom: 0rem; padding: 0rem 0rem; line-height: 2.5rem;}
+
+
 a, a:visited { 
 	color: #0d74af; 
 	text-decoration: none; 
@@ -586,8 +590,6 @@ footer a:hover {
 }
 
 
-
-
 #site_map { 
 	background: #fff; 
 }
@@ -641,3 +643,16 @@ footer a:hover {
     width: 100%;
     height: 120rem; 
 }
+
+#nav_button {
+    margin-bottom: 01.2rem;
+	padding: 01.2rem 01.6rem;
+	background: #1da025;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 02rem;
+	color: #fff;
+	line-height: 02.4rem;
+	border: none;
+	border-radius: 03px;
+}
+

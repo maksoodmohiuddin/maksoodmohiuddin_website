@@ -9,33 +9,21 @@
         var init = function () {
 
         };
-
-        $scope.experience = function () {
-            $state.go('experience');            
-        };
-
-        $scope.education = function () {
-            $state.go('education');
-        };
-
+       
         $scope.github = function () {
             $window.open('https://github.com/maksoodmohiuddin', '_blank');
         };
 
-        $scope.travel = function () {
-            $state.go('travel');
+        $scope.lady = function () {
+            $window.open('https://www.chifranciscan.org/PhysicianDetails.aspx?physicianID=821077', '_blank');
         };
 
-        $scope.resume = function () {
-            $state.go('resume');
+        $scope.work = function () {
+            $window.open('https://www.capitaloneinvesting.com/', '_blank');
         };
 
-        $scope.home = function () {
-            $state.go('home');
-        };
-
-        $scope.aydin = function () {
-            $state.go('aydin');
+        $scope.school = function () {
+            $window.open('http://www.omscs.gatech.edu/', '_blank');
         };
 
         init();

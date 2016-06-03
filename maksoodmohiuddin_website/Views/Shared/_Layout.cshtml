@@ -4,9 +4,21 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name='keywords' content='maksood mohiuddin' />
-        <title> Maksood Mohiuddin </title>        
+        <title> Maksood Mohiuddin </title>       
         <link rel="shortcut icon" href="/favicon.ico" type="image/vnd.microsoft.icon" />
-        @*<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>*@
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+        @* Google Analytics *@
+        <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-78749903-1', 'auto');
+        ga('send', 'pageview');
+
+        </script>
 
         @Styles.Render("~/thirdpartycss")
         @Styles.Render("~/appcss")
@@ -14,6 +26,9 @@
         @Scripts.Render("~/appjs")
 
         <base href="/home">
+
+        
+
     </head>
 
     <body>
@@ -31,7 +46,7 @@
                     <div>    
                         <nav>
                             <h1 class="frontload">Site Map</h1>
-                            <ul>
+                            <ul ng-show="!isMobile">
                                 <li>
                                     <a ui-sref="home">Home</a>
                                 </li>
@@ -49,6 +64,26 @@
                                 </li>
                                 <li>
                                     <a ui-sref="resume">Resume</a>
+                                </li>
+                            </ul>
+                            <ul ng-show="isMobile">
+                                <li>
+                                    <button class="navigation" ng-click="home()">Home</button>
+                                </li>
+                                <li>
+                                    <button class="navigation" ng-click="experience()">Experience</button>
+                                </li>
+                                <li>
+                                    <button class="navigation" ng-click="education()">Education</button>
+                                </li>
+                                <li>
+                                    <button class="navigation" ng-click="travel()">Travel</button>
+                                </li>
+                                <li>
+                                    <button class="navigation" ng-click="aydin()">Aydin</button>
+                                </li>
+                                <li>
+                                    <button class="navigation" ng-click="resume()">Resume</button>
                                 </li>
                             </ul>
                         </nav>                        
