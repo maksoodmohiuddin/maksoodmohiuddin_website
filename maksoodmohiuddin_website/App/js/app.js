@@ -9,7 +9,8 @@
         'maksoodMohiuddin.resumeModule',
         'maksoodMohiuddin.experienceModule',
         'maksoodMohiuddin.travelModule',
-        'maksoodMohiuddin.educationModule'        
+        'maksoodMohiuddin.educationModule',
+        'maksoodMohiuddin.colorModule',
     ]);
 
     maksoodMohiuddinApp.run(['$state', '$rootScope', '$window', 
@@ -46,6 +47,10 @@
 
         $rootScope.aydin = function () {
             $state.go('aydin');
+        };
+
+        $rootScope.color = function () {
+            $state.go('color');
         };
     }]);
 

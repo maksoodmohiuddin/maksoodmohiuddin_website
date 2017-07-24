@@ -252,6 +252,9 @@
     <Content Include="App\images\brands\uga.gif" />
     <Content Include="App\images\brands\uta.jpg" />
     <Content Include="App\images\brands\xerox.jpg" />
+    <Content Include="App\images\color\color_android.png" />
+    <Content Include="App\images\color\color_ios.png" />
+    <Content Include="App\images\color\color_my_state_white.png" />
     <Content Include="App\images\hero\hero.JPG" />
     <Content Include="App\images\hero\hero_low.JPG" />
     <Content Include="App\images\logo\logo_black.png" />
@@ -294,6 +297,8 @@
     <Content Include="App\js\app.js" />
     <Content Include="App\js\aydin\aydin.js" />
     <Content Include="App\js\aydin\controller\aydinController.js" />
+    <Content Include="App\js\color\color.js" />
+    <Content Include="App\js\color\controller\colorController.js" />
     <Content Include="App\js\education\controller\educationController.js" />
     <Content Include="App\js\education\education.js" />
     <Content Include="App\js\experience\controller\experienceController.js" />
@@ -305,6 +310,7 @@
     <Content Include="App\js\travel\controller\travelController.js" />
     <Content Include="App\js\travel\travel.js" />
     <Content Include="App\views\aydin\aydin.tpl.html" />
+    <Content Include="App\views\color\color.tpl.html" />
     <Content Include="App\views\education\education.tpl.html" />
     <Content Include="App\views\experience\experience.tpl.html" />
     <Content Include="App\views\home\home.tpl.html" />

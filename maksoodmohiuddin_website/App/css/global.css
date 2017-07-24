@@ -532,6 +532,42 @@ footer > section > div {
 	font-size: 02.4rem;
 }
 
+#leader-color { 
+	width: 100vw;
+	position: absolute;
+	z-index: 9999;
+	top: 00;
+	padding: 01rem 00 00 00;
+	border-bottom: none;
+}
+
+#branding-color { 
+	width: 23.1rem;
+	height: 05rem;
+	display: block;
+	background: url(../images/logo/logo_white.png) no-repeat;
+	background-size: contain;
+}
+
+#color { 
+	height: 8rem;
+	padding-top: 2rem;
+	overflow: hidden;
+	
+	background: #000;
+	background-position: center;
+	background-size: cover;
+}
+
+#color p {
+    font-size: 01.8rem;
+    text-align: right;
+    color: #fff;
+}
+
+
+
+
 #spotlight > div > ul > li { 
 	width: 25%;
 	display: block;
