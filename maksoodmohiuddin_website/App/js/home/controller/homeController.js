@@ -10,10 +10,6 @@
 
         };
        
-        $scope.github = function () {
-            $window.open('https://github.com/maksoodmohiuddin', '_blank');
-        };
-
         $scope.lady = function () {
             $window.open('https://www.chifranciscan.org/PhysicianDetails.aspx?physicianID=821077', '_blank');
         };

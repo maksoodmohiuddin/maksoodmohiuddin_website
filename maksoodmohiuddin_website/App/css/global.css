@@ -532,7 +532,7 @@ footer > section > div {
 	font-size: 02.4rem;
 }
 
-#leader-color { 
+#leader-mlab { 
 	width: 100vw;
 	position: absolute;
 	z-index: 9999;
@@ -541,15 +541,15 @@ footer > section > div {
 	border-bottom: none;
 }
 
-#branding-color { 
+#branding-mlab { 
 	width: 23.1rem;
 	height: 05rem;
 	display: block;
-	background: url(../images/logo/logo_white.png) no-repeat;
+	background: url(../images/mLab/mLab_Interactive_LLC_logo_white.png) no-repeat;
 	background-size: contain;
 }
 
-#color { 
+#mlab { 
 	height: 8rem;
 	padding-top: 2rem;
 	overflow: hidden;
@@ -559,13 +559,77 @@ footer > section > div {
 	background-size: cover;
 }
 
-#color p {
+#mlab p {
     font-size: 01.8rem;
     text-align: right;
     color: #fff;
 }
 
+#leader-colorthestate { 
+	width: 100vw;
+	position: absolute;
+	z-index: 9999;
+	top: 00;
+	padding: 01rem 00 00 00;
+	border-bottom: none;
+}
 
+#branding-colorthestate { 
+	width: 23.1rem;
+	height: 05rem;
+	display: block;
+	background: url(../images/mLab/mLab_Interactive_LLC_logo_yellow.png) no-repeat;
+	background-size: contain;
+}
+
+#colorthestate { 
+	height: 8rem;
+	padding-top: 2rem;
+	overflow: hidden;
+	
+	background: #000;
+	background-position: center;
+	background-size: cover;
+}
+
+#colorthestate p {
+    font-size: 01.8rem;
+    text-align: right;
+    color: #FF0;
+}
+
+#leader-privacypolicy { 
+	width: 100vw;
+	position: absolute;
+	z-index: 9999;
+	top: 00;
+	padding: 01rem 00 00 00;
+	border-bottom: none;
+}
+
+#branding-privacypolicy { 
+	width: 23.1rem;
+	height: 05rem;
+	display: block;
+	background: url(../images/mLab/mLab_Interactive_LLC_logo_green.png) no-repeat;
+	background-size: contain;
+}
+
+#privacypolicy { 
+	height: 8rem;
+	padding-top: 2rem;
+	overflow: hidden;
+	
+	background: #000;
+	background-position: center;
+	background-size: cover;
+}
+
+#privacypolicy p {
+    font-size: 01.8rem;
+    text-align: right;
+    color: #0F0;
+}
 
 
 #spotlight > div > ul > li { 

@@ -10,8 +10,9 @@
         'maksoodMohiuddin.experienceModule',
         'maksoodMohiuddin.travelModule',
         'maksoodMohiuddin.educationModule',
-        'maksoodMohiuddin.colorModule',
+        'maksoodMohiuddin.mLabModule',
     ]);
+
 
     maksoodMohiuddinApp.run(['$state', '$rootScope', '$window', 
     function ($state, $rootScope, $window) {
@@ -49,8 +50,12 @@
             $state.go('aydin');
         };
 
-        $rootScope.color = function () {
-            $state.go('color');
+        $rootScope.mLab = function () {
+            $state.go('mLab');
+        };
+
+        $rootScope.colorTheStates = function () {
+            $state.go('mLab.colorthestates');
         };
     }]);
 
