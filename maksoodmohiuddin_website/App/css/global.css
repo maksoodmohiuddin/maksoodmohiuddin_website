@@ -402,6 +402,37 @@ footer > section > div {
 	font-size: 02.4rem;
 }
 
+#leader-sophia { 
+	width: 100vw;
+	position: absolute;
+	z-index: 9999;
+	top: 00;
+	padding: 01rem 00 00 00;
+	border-bottom: none;
+}
+
+#branding-sophia { 
+	width: 23.1rem;
+	height: 05rem;
+	display: block;
+	background: url(../images/logo/logo_fuchsia.png) no-repeat;
+	background-size: contain;
+}
+
+#sophia { 
+	height: 40rem;
+	padding-top: 20rem;
+	overflow: hidden;
+	
+	background: url(../images/sophia/Aydin_Sophia.jpg) no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+#aydin p { 
+	font-size: 02.4rem;
+}
+
 #leader-experience { 
 	width: 100vw;
 	position: absolute;
@@ -741,7 +772,7 @@ footer a:hover {
     display: block;   
     overflow: visible;
     width: 100%;
-    height: 120rem; 
+    height: 60rem; 
 }
 
 #nav_button {

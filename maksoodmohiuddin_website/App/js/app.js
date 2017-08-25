@@ -6,6 +6,7 @@
         'ui.router',             
         'maksoodMohiuddin.homeModule',
         'maksoodMohiuddin.aydinModule',
+        'maksoodMohiuddin.sophiaModule',
         'maksoodMohiuddin.resumeModule',
         'maksoodMohiuddin.experienceModule',
         'maksoodMohiuddin.travelModule',
@@ -48,6 +49,10 @@
 
         $rootScope.aydin = function () {
             $state.go('aydin');
+        };
+
+        $rootScope.sophia = function () {
+            $state.go('sophia');
         };
 
         $rootScope.mLab = function () {

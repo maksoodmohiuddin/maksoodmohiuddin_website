@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
   <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
   <Import Project="..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
@@ -25,6 +26,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <TypeScriptToolsVersion>1.8</TypeScriptToolsVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -235,10 +237,13 @@
     <Content Include="App\images\aydin\8Month.JPG" />
     <Content Include="App\images\aydin\9Month.jpg" />
     <Content Include="App\images\aydin\aydin.jpg" />
+    <Content Include="App\images\aydin\Aydin1Year.jpg" />
+    <Content Include="App\images\aydin\Aydin2Year.jpg" />
     <Content Include="App\images\aydin\aydin_bully.jpg" />
     <Content Include="App\images\aydin\Born.JPG" />
     <Content Include="App\images\aydin\UltraSound.JPG" />
     <Content Include="App\images\brands\20thcenturyfox.jpeg" />
+    <Content Include="App\images\brands\accenture.png" />
     <Content Include="App\images\brands\capitaloneinvesting.png" />
     <Content Include="App\images\brands\facebook.png" />
     <Content Include="App\images\brands\georgiatech.png" />
@@ -272,6 +277,14 @@
     <Content Include="App\images\mLab\mLab_Interactive_LLC_logo_red.png" />
     <Content Include="App\images\mLab\mLab_Interactive_LLC_logo_white.png" />
     <Content Include="App\images\mLab\mLab_Interactive_LLC_logo_yellow.png" />
+    <Content Include="App\images\sophia\Aydin_Sophia_1.jpg" />
+    <Content Include="App\images\sophia\Sophia0Month.jpg" />
+    <Content Include="App\images\sophia\Sophia1Month.jpg" />
+    <Content Include="App\images\sophia\Sophia2Month.jpg" />
+    <Content Include="App\images\sophia\Sophia3Month.jpg" />
+    <Content Include="App\images\sophia\Sophia4Month.jpg" />
+    <Content Include="App\images\sophia\Sophia5Month.jpg" />
+    <Content Include="App\images\sophia\Sophia6Month.jpg" />
     <Content Include="App\images\travel\Beijing_China.jpg" />
     <Content Include="App\images\travel\Brooklyn.jpg" />
     <Content Include="App\images\travel\BuenosAires_Argentina.jpg" />
@@ -318,6 +331,8 @@
     <Content Include="App\js\home\home.js" />
     <Content Include="App\js\resume\controller\resumeController.js" />
     <Content Include="App\js\resume\resume.js" />
+    <Content Include="App\js\sophia\controller\sophiaController.js" />
+    <Content Include="App\js\sophia\sophia.js" />
     <Content Include="App\js\travel\controller\travelController.js" />
     <Content Include="App\js\travel\travel.js" />
     <Content Include="App\views\aydin\aydin.tpl.html" />
@@ -357,6 +372,7 @@
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\ApiGroup.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\Api.cshtml" />
     <Content Include="App\documents\MaksoodMohiuddin.pdf" />
+    <Content Include="App\views\sophia\sophia.tpl.html" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -629,11 +645,15 @@
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
+  <ItemGroup>
+    <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
   </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
   <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
   <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
