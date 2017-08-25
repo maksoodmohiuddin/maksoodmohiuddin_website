@@ -259,6 +259,7 @@
     <Content Include="App\images\brands\xerox.jpg" />
     <Content Include="App\images\mLab\color_android.png" />
     <Content Include="App\images\mLab\color_ios.png" />
+    <Content Include="App\images\mLab\color_my_state_black.png" />
     <Content Include="App\images\mLab\color_my_state_white.png" />
     <Content Include="App\images\hero\hero.JPG" />
     <Content Include="App\images\hero\hero_low.JPG" />
@@ -277,7 +278,7 @@
     <Content Include="App\images\mLab\mLab_Interactive_LLC_logo_red.png" />
     <Content Include="App\images\mLab\mLab_Interactive_LLC_logo_white.png" />
     <Content Include="App\images\mLab\mLab_Interactive_LLC_logo_yellow.png" />
-    <Content Include="App\images\sophia\Aydin_Sophia_1.jpg" />
+    <Content Include="App\images\sophia\Aydin_Sophia.jpg" />
     <Content Include="App\images\sophia\Sophia0Month.jpg" />
     <Content Include="App\images\sophia\Sophia1Month.jpg" />
     <Content Include="App\images\sophia\Sophia2Month.jpg" />
