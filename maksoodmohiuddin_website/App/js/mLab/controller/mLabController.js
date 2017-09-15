@@ -21,6 +21,14 @@
         $scope.privacyPolicy = function () {
             $state.go('privacypolicy');
         };
-       
+
+        $scope.downloadApple = function () {
+            $window.open('https://itunes.apple.com/us/app/colorthestates/id1273085414?mt=8', '_blank');
+        };
+
+        $scope.downloadGoogle = function () {
+            $window.open('https://play.google.com/store/apps/details?id=com.maksoodmohiuddin.colorthestates', '_blank');
+        };
+
     }]);
 })();

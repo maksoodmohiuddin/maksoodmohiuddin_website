@@ -257,6 +257,7 @@
     <Content Include="App\images\brands\uga.gif" />
     <Content Include="App\images\brands\uta.jpg" />
     <Content Include="App\images\brands\xerox.jpg" />
+    <Content Include="App\images\mLab\apple_app_store.svg" />
     <Content Include="App\images\mLab\color_android.png" />
     <Content Include="App\images\mLab\color_ios.png" />
     <Content Include="App\images\mLab\color_my_state_black.png" />
@@ -269,6 +270,7 @@
     <Content Include="App\images\logo\logo_green.png" />
     <Content Include="App\images\logo\logo_white.png" />
     <Content Include="App\images\logo\logo_yellow.png" />
+    <Content Include="App\images\mLab\google-play-badge-scaled.png" />
     <Content Include="App\images\mLab\mLab_Interactive_LLC_logo_black.png" />
     <Content Include="App\images\mLab\mLab_Interactive_LLC_logo_blue.png" />
     <Content Include="App\images\mLab\mLab_Interactive_LLC_logo_dark_red.png" />

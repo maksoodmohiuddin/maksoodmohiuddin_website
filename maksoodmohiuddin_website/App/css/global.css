@@ -44,6 +44,9 @@ button.regressive_alt { background: transparent; border: 02px solid rgb(1,139,18
 button.destructive { background: #d03027; }
 button.destructive_alt { background: transparent; border: 02px solid rgb(1,139,187); color: rgb(1,139,187); }
 
+button.clear { background: #FFFFFF; }
+
+
 button.navigation { background: #000; width: 100%;}
 button.link { background: #000; width: 5rem; margin-bottom: 0rem; padding: 0rem 0rem; line-height: 2.5rem;}
 
@@ -787,3 +790,29 @@ footer a:hover {
 	border-radius: 03px;
 }
 
+.btn-app-store{
+    background: black;
+	color: white;
+	position: relative;
+	height: 60px;
+	padding-left: 55px;
+	padding-right: 20px;
+}
+.btn-app-store i{
+	font-size: 40px;
+	position: absolute;
+	left: 10px;
+}
+.btn-app-store .small{
+	display: block;
+	font-size: 12px;
+	line-height: 12px;
+	margin-bottom: 2px;
+    margin-top: 5px;
+}
+.btn-app-store .big{
+	display: block;
+	text-align: left;
+	font-size: 21px;
+	line-height: 21px;
+}
