@@ -239,6 +239,7 @@
     <Content Include="App\images\aydin\aydin.jpg" />
     <Content Include="App\images\aydin\Aydin1Year.jpg" />
     <Content Include="App\images\aydin\Aydin2Year.jpg" />
+    <Content Include="App\images\aydin\Aydin3Year.JPG" />
     <Content Include="App\images\aydin\aydin_bully.jpg" />
     <Content Include="App\images\aydin\Born.JPG" />
     <Content Include="App\images\aydin\UltraSound.JPG" />
@@ -282,12 +283,18 @@
     <Content Include="App\images\mLab\mLab_Interactive_LLC_logo_yellow.png" />
     <Content Include="App\images\sophia\Aydin_Sophia.jpg" />
     <Content Include="App\images\sophia\Sophia0Month.jpg" />
+    <Content Include="App\images\sophia\Sophia10Month.JPG" />
+    <Content Include="App\images\sophia\Sophia11Month.JPG" />
     <Content Include="App\images\sophia\Sophia1Month.jpg" />
+    <Content Include="App\images\sophia\Sophia1Year.jpg" />
     <Content Include="App\images\sophia\Sophia2Month.jpg" />
     <Content Include="App\images\sophia\Sophia3Month.jpg" />
     <Content Include="App\images\sophia\Sophia4Month.jpg" />
     <Content Include="App\images\sophia\Sophia5Month.jpg" />
     <Content Include="App\images\sophia\Sophia6Month.jpg" />
+    <Content Include="App\images\sophia\Sophia7Month.JPG" />
+    <Content Include="App\images\sophia\Sophia8Month.JPG" />
+    <Content Include="App\images\sophia\Sophia9Month.JPG" />
     <Content Include="App\images\travel\Beijing_China.jpg" />
     <Content Include="App\images\travel\Brooklyn.jpg" />
     <Content Include="App\images\travel\BuenosAires_Argentina.jpg" />
